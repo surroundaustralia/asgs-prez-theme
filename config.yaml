@@ -1,0 +1,20 @@
+themeVolume: theme # no trailing slash
+sidenav: false
+enabledPrezs:
+  - SpacePrez
+spaceprezSparqlEndpoint: #{SPACEPREZ_SPARQL_ENDPOINT}#
+spaceprezSparqlUsername: #{SPACEPREZ_SPARQL_USERNAME}#
+spaceprezSparqlPassword: #{SPACEPREZ_SPARQL_PASSWORD}#
+demo: true
+debug: true
+allowPartialResults: true
+systemUri: http://asgs-prez.surroundaustralia.com
+prezTitle: ASGS Prez
+prezDesc: Prez instance for ASGS
+spaceprezTitle: ASGS Spatial Data
+spaceprezDesc: Spatial data for ASGS
+spaceprezDataUri: http://exampledata.org
+appName: asgs
+deploymentMethod: kubernetes # docker, kubernetes or ecs
+storageClass: ebs-sc # for kubernetes deployment
+version: 0.3.1

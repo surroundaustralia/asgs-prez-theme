@@ -1,0 +1,52 @@
+:root {
+    --primary: #326297;
+    --secondary: #222222;
+    --tertiary: #222222;
+    --link: var(--primary);
+    --link-hover: var(--link);
+    --btn: var(--primary);
+    --btn-hover: #153d73;
+    --btn-active: #153d73;
+    --nav-bg: var(--secondary);
+    --nav-color: white;
+    --nav-hover: var(--primary);
+    --header-bg: #ffffff;
+    --footer-bg: var(--secondary);
+    --card-bg: #efefef;
+    --table-row-bg: #efefef;
+
+    --title-color-primary: black;
+    --title-color-secondary: black;
+    --border-color: #d8d8d8;
+
+    /* sizing */
+    --page-max-width: 1200px;
+
+    /* fonts */
+    --body-font: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    --heading-font: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+footer {
+    color: white;
+}
+
+
+.main-nav-item:hover {
+    color: var(--nav-color) !important;
+    background-color: var(--nav-hover) !important;
+}
+
+.main-nav-item.active {
+    background-color: var(--nav-color) !important;
+    color: black !important;
+}
+
+#main-nav {
+    padding: 12px !important;
+    gap: 12px !important;
+}
+
+header {
+    color: black !important;
+}
