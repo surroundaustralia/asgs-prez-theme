@@ -1,17 +1,17 @@
 :root {
-    --primary: #326297;
-    --secondary: #222222;
+    --primary: #222222;
+    --secondary: #6b6b6b;
     --tertiary: #222222;
-    --link: var(--primary);
+    --link: var(--secondary);
     --link-hover: var(--link);
     --btn: var(--primary);
-    --btn-hover: #153d73;
-    --btn-active: #153d73;
-    --nav-bg: var(--secondary);
+    --btn-hover: var(--primary);
+    --btn-active: var(--primary);
+    --nav-bg: var(--primary);
     --nav-color: white;
-    --nav-hover: var(--primary);
+    --nav-hover: var(--secondary);
     --header-bg: #ffffff;
-    --footer-bg: var(--secondary);
+    --footer-bg: var(--primary);
     --card-bg: #efefef;
     --table-row-bg: #efefef;
 
@@ -25,6 +25,14 @@
     /* fonts */
     --body-font: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     --heading-font: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+a:not(.bubble):not(.main-nav-item):not(.btn), a:not(.bubble):not(.main-nav-item):not(.btn):hover {
+    text-decoration: underline !important;
+}
+
+.bubble {
+    border-radius: 0 !important;
 }
 
 footer {
